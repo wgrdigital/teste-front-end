@@ -9,7 +9,7 @@ Este teste consiste no desenvolvimento de uma landing, baseada em um layout de a
 ## Instruções:
 
 1. Faça um fork deste repositório;
-2. Crie uma branch com o seu nome + sobrenome. ex. pamTurk;
+2. Crie uma branch com o seu nome + sobrenome. ex. pamturk;
 3. Implemente o HTML/CSS/JS da tela com base no layout enviado;
 4. Após terminar seu teste submeta um pull request e aguarde seu feedback, que chegará por email.
 
