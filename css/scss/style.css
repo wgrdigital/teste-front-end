@@ -1,4 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 .teste {
   background: red;
+}
+
+img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.nav-link {
+  color: #444b54;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #41ceb3;
+  margin-right: 25px;
+}
+
+.nav-link:hover {
+  color: #41ceb3 !important;
+  transition: ease-out .4s;
+}
+
+button {
+  border: none !important;
 }
 /*# sourceMappingURL=style.css.map */

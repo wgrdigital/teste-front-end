@@ -1,0 +1,27 @@
+$cor-principal: #41ceb3;
+$cor-secundaria:#444b54;
+@mixin titulo(){
+    font-family: 'Dosis', sans-serif;
+    size: 2.5em;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5.6px;
+    color: $cor-secundaria;
+}
+@mixin subtitulo(){
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: $cor-principal;
+    margin-right: 25px;
+}
+@mixin texto(){
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+ 
+    line-height: 1.75;
+    letter-spacing: 2.1px;
+    text-align: left;
+    color: $cor-secundaria;
+    
+}

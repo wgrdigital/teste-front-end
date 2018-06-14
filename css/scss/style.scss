@@ -1,4 +1,7 @@
 .teste{
     background: red;
 }
-@import 'cabecalho.scss';
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import '_mixins_variaveis';
+@import '_cabecalho';

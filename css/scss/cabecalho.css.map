@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,GAAG,CAAA;EACC,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,UAAU;EACtB,KAAK,EAAE,IAAI;CACd",
-    "sources": [
-        "cabecalho.scss"
-    ],
-    "names": [],
-    "file": "cabecalho.css"
-}

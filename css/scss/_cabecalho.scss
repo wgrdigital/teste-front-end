@@ -1,0 +1,17 @@
+img{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+} 
+.nav-link{
+    color: $cor-secundaria; 
+    @include subtitulo();
+
+}
+.nav-link:hover{
+    color: $cor-principal!important;  
+    transition: ease-out .4s;
+}
+button{
+    border: none!important;
+}
