@@ -1,0 +1,26 @@
+.info-container{
+    margin-top: 200px;  
+}
+.info{
+    h2{
+        @include subtitulo();
+    }
+    p{
+        @include texto();
+    }
+}
+
+.carousel-control-next, .carousel-control-previous{
+    color: blue;
+    
+}
+.carousel-item{
+    padding: 50px;
+        h3{
+            @include subtitulo();
+            margin-bottom: 20px;
+        }
+        p{
+            @include texto();
+        }
+}

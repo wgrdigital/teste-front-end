@@ -138,4 +138,55 @@ button {
 .destaque {
   font-weight: bolder;
 }
+
+.info-container {
+  margin-top: 200px;
+}
+
+.info h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #41ceb3;
+  margin-right: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.info p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #444b54;
+}
+
+.carousel-control-next, .carousel-control-previous {
+  color: blue;
+}
+
+.carousel-item {
+  padding: 50px;
+}
+
+.carousel-item h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #41ceb3;
+  margin-right: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.carousel-item p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #444b54;
+}
 /*# sourceMappingURL=style.css.map */
