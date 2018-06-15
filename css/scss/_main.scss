@@ -1,0 +1,30 @@
+main{
+    padding-bottom: 400px;    
+}
+.main-container{
+    margin-top: 50px;
+    height: 70vh;
+
+    :nth-child(2n){
+           margin: 30px 0 30% 0;   
+    }
+    .saiba{
+        @include btn-principal();   
+        
+    }
+    .saiba:hover{
+        background: darken($cor-principal, 15%);
+        
+    }
+    h1{
+        @include titulo();
+    }
+    
+}
+.seta a{
+    font-size: 30px;
+    color: $cor-secundaria;
+        :hover{
+            color: #fff;
+        }
+}

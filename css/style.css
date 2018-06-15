@@ -1,7 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.nav-link {
+  color: #444b54;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #41ceb3;
+  margin-right: 25px;
+}
+
+.nav-link:hover {
+  color: #41ceb3 !important;
+  transition: ease-out .4s;
+}
+
+button {
+  border: none !important;
+}
+
 .teste {
   background: red;
+}
+
+.teste-2 {
+  background: blue;
+}
+
+.bg-main {
+  background: url("../../material/bg-main.png") center center;
+  background-size: cover;
+  height: 100vh;
 }
 
 img {
@@ -26,4 +60,56 @@ img {
 
 button {
   border: none !important;
+}
+
+.menu-navegacao {
+  text-align: center;
+}
+
+main {
+  padding-bottom: 400px;
+}
+
+.main-container {
+  margin-top: 50px;
+  height: 70vh;
+}
+
+.main-container :nth-child(2n) {
+  margin: 30px 0 30% 0;
+}
+
+.main-container .saiba {
+  background: #41ceb3;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: .2em;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+
+.main-container .saiba:hover {
+  background: #289b85;
+}
+
+.main-container h1 {
+  font-family: 'Dosis', sans-serif;
+  size: 2.5em;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 5.6px;
+  color: #444b54;
+  text-transform: uppercase;
+}
+
+.seta a {
+  font-size: 30px;
+  color: #444b54;
+}
+
+.seta a :hover {
+  color: #fff;
 }
