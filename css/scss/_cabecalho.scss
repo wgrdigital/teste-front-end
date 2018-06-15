@@ -17,9 +17,13 @@ img{
 } 
 .nav-link{
     color: $cor-secundaria; 
-    @include subtitulo();
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: none;
+    /*podia ter feito um mixin, mas estava conflitando com o de subtítulo...vai entender*/
 
 }
+
 .nav-link:hover{
     color: $cor-principal!important;  
     transition: ease-out .4s;

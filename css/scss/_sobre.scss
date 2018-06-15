@@ -1,0 +1,13 @@
+.sobre-container{
+    margin-top: 100px;  
+}.sobre{
+    h2{
+        @include subtitulo();
+    }
+    p{
+        @include texto();
+    }
+}
+.destaque{
+    font-weight: bolder;
+}

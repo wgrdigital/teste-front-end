@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 img {
@@ -9,10 +10,12 @@ img {
 .nav-link {
   color: #444b54;
   font-family: 'Dosis', sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #41ceb3;
   margin-right: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -46,11 +49,10 @@ img {
 
 .nav-link {
   color: #444b54;
-  font-family: 'Dosis', sans-serif;
   font-size: 1em;
-  font-weight: bold;
-  color: #41ceb3;
-  margin-right: 25px;
+  letter-spacing: 1px;
+  text-transform: none;
+  /*podia ter feito um mixin, mas estava conflitando com o de subtítulo...vai entender*/
 }
 
 .nav-link:hover {
@@ -108,4 +110,31 @@ button {
 
 .seta a :hover {
   color: #fff;
+}
+
+.sobre-container {
+  margin-top: 100px;
+}
+
+.sobre h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #41ceb3;
+  margin-right: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.sobre p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #444b54;
+}
+
+.destaque {
+  font-weight: bolder;
 }
