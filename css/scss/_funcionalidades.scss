@@ -6,6 +6,9 @@
     opacity: 1;
     transition: ease-in .3s;
 }
+
+.some{}
+.aparece{}
 .func{
     background: $cor-principal;
     padding: 50px 0 50px 0;
@@ -13,6 +16,7 @@
         @include subtitulo();
         color: #ffffff;
         text-align: center;
+        margin-bottom: 100px;
     }
 
         
@@ -25,7 +29,9 @@
     margin-right: 30px;
      
 }
-
+.posab{
+    position: relative;
+}
 
 .item{
     background: #fff;
@@ -41,6 +47,7 @@
             text-align: center;
             color: $cor-secundaria;
             text-align: center;
+    
 
 
         }
@@ -54,6 +61,8 @@
 .func-itens{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 .item{
     flex-basis: 200px;
@@ -68,11 +77,19 @@
    
 }
 .sub-hover{
-   
+   margin-bottom: 30px;
 }
-.conteudo-hover{
-    position: relative; 
-    top: -50px;
+.conteudo-hover-1,.conteudo-hover-2,.conteudo-hover-3,.conteudo-hover-4,{
+    position: absolute; 
+    top: 15px;
     text-align: center;
+}
+.conteudo-hover-4 .btn-principal{
+    color: #fff;
+       
+}
 
+.conteudo-hover-4 .btn-principal:hover{
+    background: darken($cor-principal, 15%);
+    transition: ease .4s;
 }

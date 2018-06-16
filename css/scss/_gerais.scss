@@ -19,3 +19,6 @@ button{
 body{
     overflow-x: hidden;
 }
+.btn-principal{
+    @include btn-principal();
+}

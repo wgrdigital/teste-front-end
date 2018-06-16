@@ -31,6 +31,18 @@ body {
   overflow-x: hidden;
 }
 
+.btn-principal {
+  background: #41ceb3;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: .2em;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+
 .teste {
   background: red;
 }
@@ -40,7 +52,7 @@ body {
 }
 
 .bg-main {
-  background: url("../../material/bg-main.png") center center;
+  background: url("../material/bg-main.png") center center;
   background-size: cover;
   height: 100vh;
 }
@@ -219,6 +231,7 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .func-itens {
@@ -226,6 +239,10 @@ button {
   padding-bottom: 10px;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.posab {
+  position: relative;
 }
 
 .item {
@@ -253,6 +270,7 @@ button {
 .func-itens {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -266,9 +284,22 @@ button {
   margin-bottom: 15px;
 }
 
-.conteudo-hover {
-  position: relative;
-  top: -50px;
+.sub-hover {
+  margin-bottom: 30px;
+}
+
+.conteudo-hover-1, .conteudo-hover-2, .conteudo-hover-3, .conteudo-hover-4 {
+  position: absolute;
+  top: 15px;
   text-align: center;
+}
+
+.conteudo-hover-4 .btn-principal {
+  color: #fff;
+}
+
+.conteudo-hover-4 .btn-principal:hover {
+  background: #289b85;
+  transition: ease .4s;
 }
 /*# sourceMappingURL=style.css.map */
