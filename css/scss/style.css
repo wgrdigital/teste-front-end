@@ -277,6 +277,7 @@ button {
   flex-basis: 200px;
   padding: 15px;
   position: relative;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .imagem-hover {
@@ -301,5 +302,136 @@ button {
 .conteudo-hover-4 .btn-principal:hover {
   background: #289b85;
   transition: ease .4s;
+}
+
+.contato-container {
+  padding: 300px 0;
+}
+
+.row-principal {
+  justify-content: center;
+  align-content: center;
+}
+
+/*ESTILOS QUANTO AO FORMULÁRIO*/
+form {
+  flex-grow: 2;
+}
+
+form h4 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #41ceb3;
+  margin-right: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0px;
+  margin-bottom: 50px;
+}
+
+.btn-form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-form button {
+  background: #41ceb3;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: .2em;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-decoration: none !important;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.botaoc:hover {
+  background: #289b85;
+  transition: ease .3s;
+}
+
+input, textarea {
+  border-color: #444b54 !important;
+  margin-bottom: 30px;
+}
+
+/*ESTILOS QUANTO AO LOGO E BAIXAR*/
+.row-logo {
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.row-logo .div-img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.apple {
+  margin-right: 15px;
+  background: #41ceb3;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: .2em;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-decoration: none !important;
+  padding: 5px 10px;
+  letter-spacing: normal;
+  font-size: .9em;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.apple:hover {
+  color: #41ceb3;
+  background: #fff;
+  padding: 10px 15px;
+  transition: ease-in .3s;
+}
+
+.android {
+  margin-right: 15px;
+  padding: 5px 10px;
+  letter-spacing: normal;
+  font-size: .9em;
+  color: #41ceb3;
+  border: 1px solid #41ceb3;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.android:hover {
+  color: #fff;
+  background: #41ceb3;
+  padding: 10px 15px;
+  transition: ease-in .3s;
+}
+
+.fa-apple {
+  margin-right: 10px;
+}
+
+.fa-google-play {
+  margin-right: 10px;
+}
+
+@media (max-width: 330px) {
+  .botoes-download {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .botoes-download a {
+    margin-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,107 @@
+.contato-container{
+    padding: 300px 0;
+}
+.row-principal{
+    justify-content: center;
+    align-content: center;
+}
+/*ESTILOS QUANTO AO FORMULÁRIO*/
+form{
+    flex-grow: 2;
+  
+        h4{
+            @include subtitulo();          
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 0px;
+            margin-bottom: 50px;
+        }
+}
+.btn-form{
+    display: flex;
+    justify-content: flex-end;
+
+        button{
+            @include btn-principal();
+            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),
+                        0 1px 18px 0 rgba(0,0,0,0.12),
+                        0 3px 5px 0 rgba(0,0,0,0.20);
+            
+        }
+}
+.botaoc:hover{
+    background: darken($cor-principal, 15%);
+    transition: ease .3s;
+}
+
+input, textarea{
+    border-color:$cor-secundaria!important;
+    margin-bottom: 30px;
+}
+/*ESTILOS QUANTO AO LOGO E BAIXAR*/
+.row-logo{
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+        .div-img{
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+}
+
+.apple{
+    margin-right: 15px;
+    @include btn-principal;
+    padding: 5px 10px;
+    letter-spacing: normal;
+    font-size: .9em;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.14),
+    0 2px 2px 0 rgba(0,0,0,0.12),
+    0 1px 3px 0 rgba(0,0,0,0.20);
+}
+.apple:hover{  
+        color: $cor-principal;
+        background: #fff;
+        padding: 10px 15px;
+        transition: ease-in .3s;
+    
+}
+.android{
+    margin-right: 15px;
+    padding: 5px 10px;
+    letter-spacing: normal;
+    font-size: .9em;
+    color: $cor-principal;
+    border: 1px solid $cor-principal;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.14),
+    0 2px 2px 0 rgba(0,0,0,0.12),
+    0 1px 3px 0 rgba(0,0,0,0.20);
+}
+.android:hover{
+    color:#fff ;
+    background: $cor-principal;
+    padding: 10px 15px;
+    transition: ease-in .3s;
+
+}
+
+.fa-apple{
+     margin-right: 10px;
+}
+.fa-google-play{
+    margin-right: 10px;
+}
+
+@media (max-width:330px){
+    .botoes-download{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        a{
+            margin-bottom: 10px;
+        }
+    }
+}
