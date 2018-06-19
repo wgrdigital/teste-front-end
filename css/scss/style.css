@@ -435,4 +435,99 @@ input, textarea {
     margin-bottom: 10px;
   }
 }
+
+/*QUANTO A ESTILIZAÇÃO DA 1° LINHA-REDES E ENDEREÇO*/
+.footer-1 {
+  justify-content: space-between;
+}
+
+.endereco address {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.endereco address p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 5px;
+  letter-spacing: 1.8px;
+  color: #444b54;
+}
+
+.endereco address a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 1.8px;
+  color: #444b54;
+}
+
+.endereco address span {
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.redes {
+  align-self: center;
+}
+
+.redes p {
+  color: #444b54;
+  font-size: 1.25em;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-whatsapp, .fa-skype {
+  color: #fff;
+  background: #444b54;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.fa-facebook-f {
+  padding: 10px 13px;
+}
+
+.fa-youtube {
+  padding: 10px 8px;
+}
+
+/*QUANTO A ESTILIZAÇÃO DA 2° COPY*/
+.footer-2 {
+  background: #11967d;
+}
+
+.footer-2 div {
+  margin: 0 auto;
+}
+
+.container-geral-footer-2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.container-geral-footer-2 img {
+  max-width: 300px;
+  align-self: center;
+}
+
+.container-geral-footer-2 span {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+  line-height: 1.69;
+  letter-spacing: 1.8px;
+  font-weight: bolder;
+  color: #ffffff;
+  margin-bottom: -8%;
+  align-self: center;
+}
 /*# sourceMappingURL=style.css.map */

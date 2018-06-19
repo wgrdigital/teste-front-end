@@ -1,0 +1,93 @@
+/*QUANTO A ESTILIZAÇÃO DA 1° LINHA-REDES E ENDEREÇO*/
+.footer-1{
+    justify-content: space-between;
+}
+.endereco{
+        address{
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+                p{
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 5px;
+                    letter-spacing: 1.8px;
+                    color: $cor-secundaria;
+                }
+                a{
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 10px;
+                    letter-spacing: 1.8px;
+                    color: $cor-secundaria;         
+                }
+                span{
+                    margin: 0 10px;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+        }
+        }
+.redes{
+    align-self: center;
+        p{
+            color: $cor-secundaria;            
+            font-size: 1.25em;
+            font-weight: bold;
+            letter-spacing: 2.8px;
+            text-transform: uppercase;
+           margin-bottom: 40px;
+        }
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-whatsapp, .fa-skype{
+    color:#fff;
+    background: $cor-secundaria;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+   
+}
+.fa-facebook-f{
+    padding: 10px 13px;
+}
+.fa-youtube{
+    padding: 10px 8px;
+}
+
+
+
+
+
+/*QUANTO A ESTILIZAÇÃO DA 2° COPY*/
+.footer-2{
+    background: #11967d;
+        div{
+            margin: 0 auto;
+        }
+}
+
+.container-geral-footer-2{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+        img{
+            max-width: 300px;
+            align-self: center;
+            
+        }
+        span{            
+            font-family: 'Dosis', sans-serif;
+                font-size: 2em;
+                line-height: 1.69;
+                letter-spacing: 1.8px;
+                font-weight: bolder;
+                color: #ffffff;
+                margin-bottom: -8%;
+                align-self: center;
+            
+        }
+}
