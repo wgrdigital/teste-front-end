@@ -28,3 +28,17 @@ $('.item-4').hover(
   function(){ $('.item-4 .some').addClass('opacity') },
   function(){ $('.item-4 .some').removeClass('opacity') }
 );
+
+
+$('.nav-link, .btani').click(function(e){
+	e.preventDefault();
+	var id = $(this).attr('href'),
+			menuHeight = $('nav').innerHeight(),
+			targetOffset = $(id).offset().top;
+	$('html, body').animate({
+		scrollTop: targetOffset - menuHeight
+	}, 500);
+});
+
+
+new WOW().init();

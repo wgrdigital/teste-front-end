@@ -15,25 +15,25 @@
     <div class="container-fluid bg-main">
         <header class="container-fluid ">
             <nav class="navbar navbar-expand-md navbar-light row">
-                <div class="logo-div col-md-3 col-6">
+                <div class="logo-div col-md-3 col-6 wow rollIn">
                     <a class="navbar-brand" href="#"><img src="material/svgs/logo-conectus.svg"/></a>
                 </div><!--div logo-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="mr-2">menu</span><span class="navbar-toggler-icon"></span>
                 </button><!--botao toggle-->        
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end wow slideInRight" id="navbarSupportedContent ">
                     <ul class="navbar-nav menu-navegacao">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre <span class="sr-only">(Sobre)</span></a>
+                            <a class="nav-link" href="#main">Sobre <span class="sr-only">(Sobre)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destaque <span class="sr-only">(Destaque)</span></a>
+                            <a class="nav-link" href="#destaque">Destaque <span class="sr-only">(Destaque)</span></a>
                         </li> 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Funcionalidades <span class="sr-only">(Funcionalidades)</span></a>
+                            <a class="nav-link" href="#funcionalidades">Funcionalidades <span class="sr-only">(Funcionalidades)</span></a>
                         </li>  
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Baixar o app<span class="sr-only">(Baixar o App)</span></a>
+                            <a class="nav-link" href="#baixar">Baixar o app<span class="sr-only">(Baixar o App)</span></a>
                         </li> 
                     </ul> <!--menu lista-->
                 </div>  <!-- callapse navbar --> 
@@ -43,14 +43,14 @@
         <main class="container-fluid ">
             <section class="row main-container  justify-content-center">
 
-                <div class="row col-12 justify-content-center">
+                <div class="row col-12 justify-content-center wow tada">
                     <h1 class="align-self-center">lorem ipsum dolor sit</h1>
                 </div>
-                <div class="row col-12 justify-content-center align-self-end ">
+                <div class="row col-12 justify-content-center align-self-end wow jello">
                     <a class="saiba " href="#">saiba mais</a>
                 </div>
                 <div class="row col-12 justify-content-center align-self-end seta">
-                    <a href="#"><i class="far fa-arrow-alt-circle-down"></i></i></a>
+                    <a class="btani" href="#main"><i class="far fa-arrow-alt-circle-down"></i></i></a>
                 </div><!--main-items-->
 
             </section><!--main-container-->
@@ -58,24 +58,24 @@
     </div><!--MAIN E HEADER-->
     <section class="container-fluid sobre-container">
        
-        <div class=" row sobre">
-          <div class="conteudo col-md-6">
+        <div class=" row sobre" id="main">
+          <div class="conteudo col-md-6 wow fadeInLeft">
                <h2 class=" offset-md-1 col-12" >sobre a conectus</h2>
                 <p class=" offset-md-1 col-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <span class="destaque">ut labore</span> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>Duis aute irure dolor <span class="destaque">in reprehenderit in voluptate</span> velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
-            <div class="imagem col-md-6">
+            <div class="imagem col-md-6 wow fadeInRight">
                 <img class="" src="material/iphone.png" alt="conectus-mockup">
             </div>             
         </div>
     </section><!--sobre-->
-    <section class="container-fluid info-container ">      
+    <section class="container-fluid info-container " id="destaque">      
         <div class=" row info align-items-center justify-content-center">
-            <div class="imagem col-md-6">
+            <div class="imagem col-md-6 wow bounceInUp">
                 <img src="material/PhoneSlider.png" alt="conectus-mockup">
             </div> 
             <!--item antes do  carrosel-->
             <!--carrosel-->
-            <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-6" data-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-6 wow bounceInDown" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                         <h3>Lorem 1</h3>
@@ -107,25 +107,25 @@
             <!-- /carrosel-->        
         </div><!--row-->
     </section><!--info-->
-    <section class="func container-fluid">
+    <section class="func container-fluid" id="funcionalidades">
         <h2>As funcionalidades</h2>
         <div class=" func-itens">
-            <div class="item item-1"><!--container de cada item-->
+            <div class="item item-1 wow fadeInLeft"><!--container de cada item-->
                 <div class="imagem-hover some"><img src="material/svgs/servico-1.svg"></div><!--conteudo-imagem-->
                 <h4 class="sub-hover some">lorem</h4>
                 <div class="conteudo-hover-4 aparece opacity"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p><a class="btn-principal" href="#">Lorem Ipsum</a> </div><!--conteudo hover-->
             </div><!--/container de cada item-->
-            <div class="item item-2"><!--container de cada item-->
+            <div class="item item-2 wow fadeInUp"><!--container de cada item-->
                 <div class="imagem-hover some"><img src="material/svgs/servico-2.svg"></div><!--conteudo-imagem-->
                 <h4 class="sub-hover some">lorem</h4>
                 <div class="conteudo-hover-4 aparece opacity"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p><a class="btn-principal" href="#">Lorem Ipsum</a> </div><!--conteudo hover-->
             </div><!--/container de cada item-->
-            <div class="item item-3 "><!--container de cada item-->
+            <div class="item item-3 wow fadeInRight "><!--container de cada item-->
                 <div class="imagem-hover some"><img src="material/svgs/servico-3.svg"></div><!--conteudo-imagem-->
                 <h4 class="sub-hover some">lorem</h4>
                 <div class="conteudo-hover-4 aparece opacity"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p><a class="btn-principal" href="#">Lorem Ipsum</a> </div><!--conteudo hover-->
             </div><!--/container de cada item-->
-            <div class="item item-4 "><!--container de cada item-->
+            <div class="item item-4 wow fadeInDown "><!--container de cada item-->
                 <div class="imagem-hover some"><img src="material/svgs/servico-4.svg"></div><!--conteudo-imagem-->
                 <h4 class="sub-hover some">lorem</h4>
                 <div class="conteudo-hover-4 aparece opacity"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p><a class="btn-principal" href="#">Lorem Ipsum</a> </div><!--conteudo hover-->
@@ -134,19 +134,19 @@
             
         </div><!--/FUNC ITENS-->
     </section>
-    <section class="contato-container">
+    <section class="contato-container" id="baixar">
         <div class="container-fluid">
             <div class="row row-principal">
-                <div class="row row-logo col-12 col-md-6">
+                <div class="row row-logo col-12 col-md-6 wow slideInLeft">
                     <div class="div-img">
                         <img class="col-8" src="material/svgs/logo-conectus-b.svg">
                     </div>
-                    <div class="botoes-download ">
+                    <div class="botoes-download " >
                         <a class="apple"href="#"><i class="fab fa-apple"></i>Download the app</a>
                         <a class="android" href="#"><i class="fab fa-google-play"></i>Download the app</a>
                     </div>    
                 </div><!--/ROW logo-->
-                <div class="row row-form col-12 col-md-6 justify-content-center">
+                <div class="row row-form col-12 col-md-6 justify-content-center wow slideInRight">
                     
                     <form>
                             <h4>Quer falar com a gente?</h4>
@@ -214,6 +214,7 @@
     
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script> 
+    <script src="js/wow.js"></script> 
     <script src="js/main.js"></script> 
 </body>
 </html>
