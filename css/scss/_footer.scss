@@ -2,14 +2,16 @@
 .footer-1{
     justify-content: space-between;
 }
+
 .endereco{
         address{
             display: flex;
             align-items: flex-end;
+            flex-wrap: wrap;
             flex-direction: column;
                 p{
                     font-family: 'Raleway', sans-serif;
-                    font-size: 13px;
+                    font-size: .8em;
                     font-weight: 500;
                     line-height: 5px;
                     letter-spacing: 1.8px;
@@ -47,7 +49,7 @@
     background: $cor-secundaria;
     padding: 10px;
     border-radius: 50px;
-    margin-right: 10px;
+    margin-right: 2%;
    
 }
 .fa-facebook-f{
@@ -56,14 +58,41 @@
 .fa-youtube{
     padding: 10px 8px;
 }
+@media(max-width: 768px){
+    .redes{
+        text-align: center;
+        margin-bottom: 30px
+        }
+    .endereco address{
+        align-items: center;
+        text-align: center;
+
+    }    
+}
+@media(max-width: 576px){
+    address{
+            p{        
+                font-size: 10px!important;
+                line-height: 3px;
+               
+            
+            }
+            a{
+                font-size: 10px!important;
+                line-height: 3px;
+               
+        }
+       }
+}
 
 
 
 
 
 /*QUANTO A ESTILIZAÇÃO DA 2° COPY*/
+
 .footer-2{
-    background: #11967d;
+    
         div{
             margin: 0 auto;
         }
@@ -90,4 +119,7 @@
                 align-self: center;
             
         }
+}
+.div-footer{
+ background: #11967d;;
 }
